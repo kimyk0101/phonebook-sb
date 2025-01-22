@@ -14,4 +14,8 @@ public class PhonebookDaoException extends RuntimeException {
 		this.phonebookVo = vo;
 	}
 	
+	public PhonebookDaoException(String message, Throwable cause) {
+		super(message, cause);
+	}
+	
 }
